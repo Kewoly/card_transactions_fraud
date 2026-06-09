@@ -648,7 +648,10 @@ with r2a:
                 ],
                 showscale=True,
                 colorbar=dict(
-                    title="Taux (%)", titlefont=dict(color=C["muted"], size=10),
+                    title=dict(
+                        text="Taux (%)", 
+                        font=dict(color=C["muted"], size=10),
+                    ),
                     tickfont=dict(color=C["muted"], size=9),
                     thickness=10, len=0.8,
                     bgcolor="rgba(0,0,0,0)",
